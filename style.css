@@ -1,12 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
 .nav{
-    width: 100vw;
+    width: 110vw;
+    left: -10px;
     height: 5vh;
     background-color: black;
+    position: relative;
+    top: -80px;
+}
+.logo{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.name{
+    font-size: 40px;
+    position: relative;
+    left: 120px;
+    top: -89px;
+    width: 310px;
+    border-radius: 15px;
 }
 #item{
-    font-size: 30px;
-    color: rgb(255, 255, 255);
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: 26px;
 }
-#f{
+a, a:link, a:visited {
     color: azure;
-}
+    text-decoration: none;
+    background-color: #778899;
+    border-radius: 6px;
+  }
+  a:hover{
+    color: black;
+    background-color: bisque;
+  }
+  #alia{
+    position: relative;
+    top: -81px;
+  }
