@@ -1,8 +1,14 @@
 *{
     margin: 0%;
     padding: 0%;
+
     /* overflow-x: hidden; */
 }
+body{
+  overflow-x: hidden;
+ 
+}
+
 .nav{
     width: 100vw;
     left: -10px;
@@ -25,22 +31,36 @@
     width: 310px;
     border-radius: 15px;
 }
-#item{
+.button{
     position: relative;
     top: 10px;
     left: 20px;
     font-size: 26px;
 }
-a, a:link, a:visited {
-    color: azure;
+.button:link{
+  color: azure;
     text-decoration: none;
     background-color: #778899;
     border-radius: 6px;
-  }
-  a:hover{
+}
+a.one:link,a.one:visited {
+  color: azure;
+    text-decoration: none;
+    background-color: #778899;
+    border-radius: 6px;
+}
+
+a.one:hover{
+  color: black;
+  background-color: bisque;
+}
+
+
+a.button:hover{
     color: black;
     background-color: bisque;
   }
+  
   #alia{
     position: relative;
     top: -80px;
@@ -54,12 +74,26 @@ a, a:link, a:visited {
     text-align: right;
     position: relative;
     right: 200px;
-    font-family: 'Brush Script MT', Times, cursive;
+    font-family: 'Brush Script MT', Times, Cursive;
   }
   #git{
     
     position: relative;
     left: 1720px;
     top: -35px;
+   
+  }
+  #insta{
+    
+    position: relative;
+    left: 1760px;
+    top: -68px;
+   
+  }
+  #linkedin{
+    
+    position: relative;
+    left: 1800px;
+    top: -102px;
    
   }
