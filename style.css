@@ -1,10 +1,10 @@
 *{
     margin: 0%;
     padding: 0%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .nav{
-    width: 110vw;
+    width: 100vw;
     left: -10px;
     height: 5vh;
     background-color: black;
@@ -48,4 +48,18 @@ a, a:link, a:visited {
   #alia2{
     position: relative;
     top: -70px;
+  }
+  #anshul{
+    font-size: 30px;
+    text-align: right;
+    position: relative;
+    right: 200px;
+    font-family: 'Brush Script MT', Times, cursive;
+  }
+  #git{
+    
+    position: relative;
+    left: 1720px;
+    top: -35px;
+   
   }
