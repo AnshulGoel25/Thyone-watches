@@ -1,0 +1,12 @@
+.nav{
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+}
+#item{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+#f{
+    color: azure;
+}
