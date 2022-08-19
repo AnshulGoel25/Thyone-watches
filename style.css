@@ -12,7 +12,7 @@ body{
 .nav{
     width: 100vw;
     left: -10px;
-    height: 5vh;
+    height: 50px;
     background-color: black;
     position: relative;
     top: -80px;
@@ -63,7 +63,7 @@ a.button:hover{
   
   #alia{
     position: relative;
-    top: -80px;
+    top: -75px;
   }
   #alia2{
     position: relative;
@@ -75,6 +75,7 @@ a.button:hover{
     position: relative;
     right: 200px;
     font-family: 'Brush Script MT', Times, Cursive;
+    top: 17px;
   }
   #git{
     
@@ -95,5 +96,13 @@ a.button:hover{
     position: relative;
     left: 1800px;
     top: -102px;
+   
+  }
+  #facebook{
+    
+    position: relative;
+    left: 1840px;
+    top: -137px;
+   
    
   }
