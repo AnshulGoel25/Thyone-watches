@@ -36,6 +36,18 @@ body{
     left: 20px;
     font-size: 26px;
 }
+.two{
+  font-size: 26px;
+  color: azure;
+  text-decoration: none;
+  background-color: #778899;
+  border-radius: 6px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.two:hover{
+  color: black;
+  background-color: bisque;
+}
 .button:link{
   color: azure;
     text-decoration: none;
