@@ -1,0 +1,19 @@
+body{
+    /* background-image: url(back.jpg); */
+    background-repeat: no-repeat;
+    
+}
+
+.text{
+    position: relative;
+    top: 20px;
+    font-size: 40px;
+    color: black;
+  }
+  .about{
+    font-size: 80px;
+    position: relative;
+    text-align: center;
+    left: -50px;
+    top: -30px;
+  }
