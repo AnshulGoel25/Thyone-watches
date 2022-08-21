@@ -1,14 +1,21 @@
 body{
-    /* background-image: url(back.jpg); */
+    background-image: url(back.jpg);
     background-repeat: no-repeat;
     
 }
-
+.home{
+  background-color: white;
+  width: 50px;
+  border-radius: 9px;
+}
 .text{
     position: relative;
     top: 20px;
     font-size: 40px;
-    color: black;
+    color: white;
+  }
+  .home:hover{
+    background-color: bisque;
   }
   .about{
     font-size: 80px;
@@ -16,4 +23,5 @@ body{
     text-align: center;
     left: -50px;
     top: -10px;
+    color: white;
   }
